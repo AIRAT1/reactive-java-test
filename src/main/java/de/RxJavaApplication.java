@@ -20,7 +20,6 @@ public class RxJavaApplication {
         IntStream.range(10, 20)
                 .map(x -> x * x)
                 .filter(x -> x > 101)
-                .filter(x -> x > 101)
                 .skip(5)
                 .forEach(System.out::println);
     }
